@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace ProtonApp\Controller;
 
 abstract class AppController implements ControllerInterface
 {

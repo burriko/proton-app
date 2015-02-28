@@ -1,6 +1,6 @@
 <?php
 
-namespace Proton\ServiceProvider;
+namespace ProtonApp\ServiceProvider;
 
 use League\Container\ServiceProvider;
 

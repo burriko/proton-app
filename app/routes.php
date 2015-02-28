@@ -1,3 +1,3 @@
 <?php
 
-$app->get('/', 'App\Controller\DefaultController::index');
+$app->get('/', 'ProtonApp\Controller\DefaultController::index');
