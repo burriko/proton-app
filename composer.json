@@ -1,0 +1,12 @@
+{
+    "require": {
+        "alexbilbie/proton": "~1.4",
+        "league/plates": "~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Proton\\": "system/"
+        }
+    }
+}
