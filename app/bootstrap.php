@@ -7,7 +7,6 @@ $app = new Proton\Application();
 $app->getContainer()->inflector(App\Controller\AppController::class)
                     ->invokeMethod('setApp', [$app]);
 
-$app['test'] = 'testing';
 $app->register('\Proton\ServiceProvider\PlatesProvider');
 
 require 'routes.php';
