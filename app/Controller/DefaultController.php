@@ -9,7 +9,7 @@ class DefaultController extends AppController
 {
     public function index(Request $request, Response $response, array $args)
     {
-        $response->setContent($this->plates->render('index'));
+        $response->setContent($this->app['plates']->render('index'));
         return $response;
     }
 }
